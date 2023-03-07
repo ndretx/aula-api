@@ -1,5 +1,7 @@
 export class User{
     name:string;
-    age: number;
+    email: string;
     message: string;
+    address: string;
+    phone: any;
 }

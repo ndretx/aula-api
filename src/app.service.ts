@@ -7,7 +7,7 @@ import { timingSafeEqual } from 'crypto';
 @Injectable()
 export class AppService {
 
-  private readonly users: User[];
+  private readonly users: User[] = []
 
 
   getHello(): string {
