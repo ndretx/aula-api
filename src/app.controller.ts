@@ -16,6 +16,11 @@ export class AppController {
     return this.appService.createUser(user);
   }
 
+  @Get('users')
+  async getUser(): Promise<User[]>{
+    return this.appService.getUser();
+  }
+
   
 
 

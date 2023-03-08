@@ -19,7 +19,9 @@ export class AppService {
     return this.users;
 
   }
-  
+  getUser(): User[]{
+    return this.users;
+  }
 
 
 }
